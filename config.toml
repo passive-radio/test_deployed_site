@@ -185,7 +185,7 @@ canonifyurls = true
   # Current image is on AWS S3 and delivered by AWS CloudFront.
   # Otherwise put your image, for example `cover.jpg` in folder `static/images/`,
   # and use relative url : `images/cover.jpg`
-  coverImage = "images/cover.jpg"
+  coverImage = "img/cover.jpg"
 
   # Display an image gallery at the end of a post which have photos variables (false: disabled, true: enabled)
   imageGallery = true
@@ -349,7 +349,7 @@ canonifyurls = true
   [params.comment]
     [params.comment.disqus]
       enable = true
-      shortname = "hugo-tranquilpeak-theme"
+      shortname = "transquilpeak"
     [params.comment.gitalk]
       enable = false
       # clientId =
